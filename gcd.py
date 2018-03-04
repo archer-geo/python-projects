@@ -15,11 +15,16 @@ def get_factors(num_input):
             tempList.append(counter)
         counter+=1
     return tempList
+
 def find_GCD(L1, L2):
+    #Find the common factors between the two lists
     gcdset = set(L1) & set(L2)
     L3 = list(gcdset)
+    #then sort to put the GCD to the rightmost
     L3.sort()
+    #return the topmost which is the GCD!
     return L3[-1]
+
 print("Enter 2 numbers and get their GCD! press CTRL + C to exit. (Note to Mac users: it's still control.) By Rohan Arni")
 while True:
     num1 = input("Enter your first number here: ")
