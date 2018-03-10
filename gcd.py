@@ -37,5 +37,5 @@ while True:
 
     gcd = find_GCD(L1, L2)
     print("Calculating........")
-    time.sleep(3)
+    time.sleep(4)
     print ("The GCD of "+str(num1)+" and "+str(num2)+" is "+str(gcd) + "!")
