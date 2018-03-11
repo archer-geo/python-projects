@@ -11,5 +11,5 @@ while True:
 
     while counter < len_list:
         findkey = morse_code_dict_key_find[counter]
-        print(morse_code_dict[findkey])
+        print(morse_code_dict[findkey], end=" | ")
         counter+=1
