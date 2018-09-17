@@ -1,5 +1,5 @@
 # python-projects
-Projects by Rohan Arni
+Projects by Archer Geo
 So this is my first repository...
 I have basic programming skills
 I like to use python.
